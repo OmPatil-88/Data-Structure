@@ -1,0 +1,4 @@
+*.o
+*.out
+*.a
+find . -type f -executable | sed 's|^\./||'
